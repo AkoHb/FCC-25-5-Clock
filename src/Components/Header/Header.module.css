@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    max-height: 3rem;
+    background-color: #0a0a23;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+    padding: 0 0.5rem;
+}
+
+header > div {
+    display: flex;
+}
+
+img {
+    height: 2.5rem;
+    filter: invert(1);
+    margin-left: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: auto 0.5rem;
+    word-wrap: none;
+}
+
+@media screen and (max-width: 800px) {
+    
+    a {
+        font-size: 0.5rem;
+    };
+
+    
+    
+}
