@@ -1,0 +1,82 @@
+#root {
+  text-align: center;
+}
+
+div#break-label,
+div#session-label,
+div#timer-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.25rem;
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-radius: 3rem;
+  background-color: #dadada86;
+}
+
+div#break-label>p,
+div#session-label>p,
+div#timer-label>p {
+  padding: 1rem;
+}
+
+div#timer-label>p {
+  border: 0.2rem dotted red;
+  border-radius: 1.5rem;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  grid-template-columns: repeat(2, minmax(100px, auto));
+  background-image: url("https://i0.wp.com/countrysquire.co.uk/wp-content/uploads/2018/09/bvgv.jpg?resize=1290%2C768&ssl=1");
+  background-size: cover;
+  /* background-color: #202049d3; */
+  
+}
+
+main>:last-child {
+  grid-column: span 2;
+}
+
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  border: 3px solid transparent;
+  transition: all 0.3s ease-out;
+  border-radius: 1.25rem;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+
+button:hover {
+  cursor: pointer;
+  border: 3px solid yellow;
+  color: orange;
+}
+
+button:active {
+  border: 3px solid green;
+  color: green;
+
+}
+
